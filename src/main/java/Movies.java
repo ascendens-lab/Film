@@ -2,9 +2,8 @@ public class Movies {
     static void main(){
 
         int gräns = 120;
-        // film1 som skapas här under är som en vägskylt som pekar på en plats i minnet där ett objekt av typen Film finns.
-        // Till höger om parentesen skapas själva objektet, i det här fallet ett objekt av typen Film.
-        // I parentesen specificeras vad som finns i Film-objektet på den platsen i minnet.
+        // film1 som skapas här under är som en vägskylt som pekar på en plats i minnet där ett objekt av typen Film skapas samtidigt.
+        // Till höger om likhetstecknet skapas själva Film-objektet.
         // För att hämta saker från objektet anger man namnet på vägskylten och vilken sak man vill ha.
         // Vill man ha titeln på filmen i film1 skriver man film1.title().
         Film film1 = new Film("Alien","Ridley Scott", 117);
